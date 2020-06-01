@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/sgbryson/Splitflap/splitflap-logo.gif" alt="Splitflap">
+  <img src="https://github.com/sgbryson/Splitflap/blob/master/splitflap-logo.gif" alt="Splitflap">
 </p>
 
 ***🛫 Splitflap*** is a simple to use component to present changeable alphanumeric text like often used as a public transport timetable in airports or railway stations or with some flip clocks.
@@ -20,7 +20,7 @@
 
 The first example is the simplest way to use the `Splitflap` component. Here how to display this "Hello" text:
 
-![Hello](https://github.com/sgbryson/Splitflap/splitflap-hello.gif)
+![Hello](https://github.com/sgbryson/Splitflap/blob/master/splitflap-hello.gif)
 
 ```swift
 import Splitflap
@@ -44,7 +44,7 @@ func numberOfFlapsInSplitflap(_ splitflap: Splitflap) -> Int {
 
 `Splitflap` allows you to customize each flap individually by providing a `splitflap:builderForFlapAtIndex:` delegate method:
 
-![Theming](https://github.com/sgbryson/Splitflap/splitflap-theming.gif)
+![Theming](https://github.com/sgbryson/Splitflap/blob/master/splitflap-theming.gif)
 
 ```swift
 let splitflapView        = Splitflap(frame: CGRect(x: 0, y: 0, width: 370, height: 53))
